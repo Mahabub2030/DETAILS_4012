@@ -83,11 +83,12 @@ nav .logo {
 }
 
 nav .logo-image {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+    width: 100%;
+    height: 50px;
+    background-color: #eeeaea;
+    
+    
 }
-
 nav .logo-image img {
     width: 45px;
     height: 45px;
@@ -384,6 +385,18 @@ nav.close~.dashboard .top {
 
 .boxes .box.box3 {
     background-color: var(--box3-color);
+}
+.boxes .box.box4 {
+    background-color: var(--box3-color);
+    margin-top: 20px;
+}
+.boxes .box.box5 {
+    background-color: rgb(179, 179, 184);
+    margin-top: 20px;
+}
+.boxes .box.box6 {
+    background-color:rgb(216, 216, 231);
+    margin-top: 20px;
 }
 
 .container .activity .activity-data {
