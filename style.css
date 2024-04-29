@@ -411,7 +411,6 @@ nav.close~.dashboard .top {
     flex-direction: column;
     margin: 0 40px;
 }
-
 .activity-data .data-title {
     font-size: 18px;
     color: var(--text-color);
