@@ -68,7 +68,7 @@ nav {
     left: 0;
     height: 100%;
     width: 250px;
-    background-color: var(--nav-color);
+    background-color: #4d4040;
     padding: 10px 0 10px 10px;
     transition: var(--time-03);
 }
@@ -180,6 +180,13 @@ nav .menu-items li.active a:after {
     pointer-events: none;
 }
 
+i{
+    color: #32cc65;
+}
+
+
+
+
 
 nav .menu-items li.active a .links {
     color: var(--primary-color);
@@ -241,8 +248,9 @@ body.dark .switch::before {
     width: calc(100% - 250px);
     min-height: 100vh;
     background-color: var(--dash-color);
-    padding: 10px 15px;
+    padding: 50px 50px;
     transition: var(--time-03);
+    align-items: center;
 }
 
 nav.close~.dashboard {
@@ -267,7 +275,7 @@ nav.close~.dashboard {
 
 nav.close~.dashboard .top {
     width: calc(100% - 72px);
-    left: 72px;
+    left: 75px;
 }
 
 .dashboard .top .navToggle {
@@ -296,8 +304,8 @@ nav.close~.dashboard .top {
 }
 
 .dashboard .top .searchBox:focus-within {
-    border-color: #0ff9;
-    box-shadow: 0 0 5px #0ff9;
+    border-color: rgba(71, 110, 80, 0.6);
+    box-shadow: 0 0 50px rgba(211, 214, 214, 0.6);
 }
 
 .top .searchBox input {
